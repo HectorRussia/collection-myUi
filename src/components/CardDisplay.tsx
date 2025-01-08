@@ -1,7 +1,5 @@
+import { images } from "@/constants/images"
 
-
-const imageUrl = ["https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"]
-const images = new Array(6).fill(imageUrl);
 
 const CardDisplay = () => {
   return (
