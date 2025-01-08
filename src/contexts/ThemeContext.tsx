@@ -1,6 +1,7 @@
-import { ThemeContext } from 'hooks/useTheme';
+
+import { ThemeContext } from '@/hooks/useTheme';
+import { ChildrenProps } from '@/models/theme';
 import { useEffect, useState } from 'react'
-import { ChildrenProps } from 'src/models/theme';
 
 export const ThemeProvider = ( { children } : ChildrenProps ) => {
 

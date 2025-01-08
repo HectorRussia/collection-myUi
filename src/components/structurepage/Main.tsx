@@ -1,4 +1,4 @@
-import CardDisplay from "components/CardDisplay"
+import CardDisplay from "../CardDisplay"
 
 const Main = () => {
 

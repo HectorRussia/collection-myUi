@@ -1,6 +1,6 @@
 import { IconTriangle } from "@tabler/icons-react"
-import { useTheme } from "hooks/useTheme";
 import ThermeToggle from "./ThermeToggle";
+import { useTheme } from "@/hooks/useTheme";
 
 
 const Navbar = () => {
