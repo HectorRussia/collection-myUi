@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 
 export type ThemeContextType = {
-  theme: "light" | "dark";
-  setTheme: (theme: "light" | "dark") => void;
+  theme: "garden" | "dark";
+  setTheme: (theme: "garden" | "dark") => void;
 };
 
 export type ChildrenProps = {

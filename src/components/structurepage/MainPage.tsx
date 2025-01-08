@@ -1,4 +1,5 @@
 import { ThemeProvider } from "../../contexts/ThemeContext"
+import Main from "./Main"
 import Navbar from "./Navbar"
 
 const MainPage = () => {
@@ -6,6 +7,7 @@ const MainPage = () => {
     <>
     <ThemeProvider>
       <Navbar/>
+      <Main/>
     </ThemeProvider>
       
     </>

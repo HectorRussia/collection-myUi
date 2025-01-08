@@ -4,11 +4,11 @@ import { ChildrenProps } from 'src/models/theme';
 
 export const ThemeProvider = ( { children } : ChildrenProps ) => {
 
-    const [theme, setTheme] = useState<"light" | "dark">('light');
+    const [theme, setTheme] = useState<"garden" | "dark">('garden');
 
     useEffect(() => {
         
-        const storedTheme = localStorage.getItem('theme') as "light" | "dark" | null;
+        const storedTheme = localStorage.getItem('theme') as "garden" | "dark" | null;
         if (storedTheme) {
             setTheme(storedTheme); 
         } else {

@@ -4,7 +4,7 @@ const ThermeToggle = () => {
 
     const { theme, setTheme } = useTheme();
     const toggleTheme = () => {
-      const newTheme = theme === "light" ? "dark" : "light";
+      const newTheme = theme === "garden" ? "dark" : "garden";
       setTheme(newTheme);
       document.documentElement.setAttribute("data-theme", newTheme);
       localStorage.setItem("theme", newTheme); 
@@ -22,7 +22,7 @@ const ThermeToggle = () => {
 
             {/* Sun */}
             <svg
-              className="swap-off h-7 w-7 fill-current text-black"
+              className="swap-off h-7 w-7 fill-current text-base-600"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -33,7 +33,7 @@ const ThermeToggle = () => {
             
             {/* Moon */}
             <svg
-              className="swap-on h-7 w-7 fill-current text-yellow"
+              className="swap-on h-7 w-7 fill-current text-warning  text-3xl"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >

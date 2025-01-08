@@ -9,10 +9,10 @@ const Navbar = () => {
 
     return (
     <>
-        <div className={`flex ${ theme === 'light' ?  'bg-secondary' : 'bg-accent' } justify-around items-center py-2.5`} >
-            <div className="text-3xl font-bold flex gap-3">
-                <IconTriangle stroke={2} className={`${theme === 'light' ? 'text-primary' : 'text-primary'} mt-3 `}/>
-                 <h2 className={`${theme === 'light' ? 'text-primary' : 'text-primary'}`}>TailDaisy Collection</h2>
+        <div className={`flex ${ theme === 'garden' ?  'neutral' : 'base-300' } justify-around  xs:justify-between items-center py-2.5 mt-3`} >
+            <div className="text-3xl font-bold flex gap-3 sm:justify-end ">
+                 <IconTriangle stroke={2} className={`${theme === 'garden' ? 'text-secondary' : 'text-secondary'} mt-2 `}/>
+                 <h2 className={`${theme === 'garden' ? 'text-[#0EA5E9]' : 'text-secondary'} `}>MyUI Collection</h2>
             </div>
             <ThermeToggle/>
         </div>
