@@ -23,10 +23,10 @@ const ThermeToggle = () => {
             />
 
             {/* Sun */}
-            <IconSun stroke={2} className="swap-off h-7 w-7 fill-current text-base-600"/>
+            <IconSun stroke={2} className="swap-off h-10 w-10 fill-current text-orange-400"/>
             
             {/* Moon */}
-            <IconMoon stroke={2} className="swap-on h-7 w-7 fill-current text-warning  text-3xl"/>
+            <IconMoon stroke={2} className="swap-on h-10 w-10 fill-current text-warning  text-3xl"/>
           </label>
         </div>
       );
