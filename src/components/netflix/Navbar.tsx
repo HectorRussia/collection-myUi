@@ -1,7 +1,7 @@
 import { IconChevronRight } from "@tabler/icons-react";
 
 const topic = `src/assets/NetFlix/topic.png`;
-const Navbar = () => {
+const NavbarNetflix = () => {
   return (
     <>
         <div className="relative h-screen">
@@ -34,4 +34,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavbarNetflix
